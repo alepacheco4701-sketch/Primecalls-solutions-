@@ -1,4 +1,11 @@
-// FASE 3 FINAL - Plataforma completa lista para negocio
+export default function Home() {
+  return (
+    <div style={{ padding: 20 }}>
+      <h1>🚀 Call Center App</h1>
+      <p>Tu sistema ya está online</p>
+    </div>
+  );
+}
 
 import { useState, useEffect } from "react";
 import { initializeApp } from "firebase/app";
@@ -176,12 +183,4 @@ export default function App() {
   }
 
   return null;
-}
-export default function Home() {
-  return (
-    <div style={{padding:20}}>
-      <h1>🚀 Call Center App</h1>
-      <p>Tu sistema ya está online</p>
-    </div>
-  );
 }
